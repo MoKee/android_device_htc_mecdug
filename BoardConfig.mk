@@ -56,8 +56,8 @@ BOARD_RIL_CLASS := ../../../device/htc/mecdug/ril
 
 # Vendor Init
 TARGET_UNIFIED_DEVICE := true
-TARGET_INIT_VENDOR_LIB := libinit_msm
-TARGET_LIBINIT_DEFINES_FILE := device/htc/mecdug/init/init_mecdug.cpp
+TARGET_INIT_VENDOR_LIB := libinit_mecdug
+TARGET_RECOVERY_DEVICE_MODULES := libinit_mecdug
 
 # Inherit from the proprietary version
 -include vendor/htc/mecdug/BoardConfigVendor.mk
